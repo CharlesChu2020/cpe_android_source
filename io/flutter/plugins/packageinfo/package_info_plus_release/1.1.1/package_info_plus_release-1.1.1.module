@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.packageinfo",
+    "module": "package_info_plus_release",
+    "version": "1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "package_info_plus_release-1.1.1.aar",
+          "url": "package_info_plus_release-1.1.1.aar",
+          "size": 7611,
+          "sha512": "83b8bff71925567cc4f35afdf2c5b186ba7bf90489a879dccf83e961e7ced6a4b9e6bbc256d182d6a2ff01b6168a1ca9da904e637f1ccee0ede5413d221153ac",
+          "sha256": "88a31bbf1bfa83d32fbe3fb8b6c102a00c7bec7e170f33674bd79616075e98ab",
+          "sha1": "fb58115af0b69a9c7653a46830db80870a60e2d7",
+          "md5": "c39d8299b0025d9a13fc592bf045d153"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "package_info_plus_release-1.1.1.aar",
+          "url": "package_info_plus_release-1.1.1.aar",
+          "size": 7611,
+          "sha512": "83b8bff71925567cc4f35afdf2c5b186ba7bf90489a879dccf83e961e7ced6a4b9e6bbc256d182d6a2ff01b6168a1ca9da904e637f1ccee0ede5413d221153ac",
+          "sha256": "88a31bbf1bfa83d32fbe3fb8b6c102a00c7bec7e170f33674bd79616075e98ab",
+          "sha1": "fb58115af0b69a9c7653a46830db80870a60e2d7",
+          "md5": "c39d8299b0025d9a13fc592bf045d153"
+        }
+      ]
+    }
+  ]
+}
