@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.wifi_info_flutter",
+    "module": "wifi_info_flutter_release",
+    "version": "1.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_info_flutter_release-1.1.2.aar",
+          "url": "wifi_info_flutter_release-1.1.2.aar",
+          "size": 7516,
+          "sha512": "aa712619bdb878c6a326254d35900373b2e2333bbda0a2521cccea08f77f940ffe975fbe8a04af2e564902c489920e58507e4bc664db9dbf137c44c6c2b1972d",
+          "sha256": "5ef810e5bb5dead1aff1697069c9658609f838ca0933a36af1c2ada5d6bad043",
+          "sha1": "b52db612cc9176532be7cd5a10101af505e4d98c",
+          "md5": "d60c8a6b0fc519435fe78fc7550b09eb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_info_flutter_release-1.1.2.aar",
+          "url": "wifi_info_flutter_release-1.1.2.aar",
+          "size": 7516,
+          "sha512": "aa712619bdb878c6a326254d35900373b2e2333bbda0a2521cccea08f77f940ffe975fbe8a04af2e564902c489920e58507e4bc664db9dbf137c44c6c2b1972d",
+          "sha256": "5ef810e5bb5dead1aff1697069c9658609f838ca0933a36af1c2ada5d6bad043",
+          "sha1": "b52db612cc9176532be7cd5a10101af505e4d98c",
+          "md5": "d60c8a6b0fc519435fe78fc7550b09eb"
+        }
+      ]
+    }
+  ]
+}
